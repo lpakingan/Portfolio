@@ -1,13 +1,10 @@
-import './App.css';
-import Header from './components/header';
+import "./App.css";
+import Main from "./components/main";
 
 function App() {
   return (
     <div className="react-portfolio">
-      <div className="portfolio-header">
-        <Header />
-      </div>
-      <div></div>
+      <Main />
     </div>
   );
 }
