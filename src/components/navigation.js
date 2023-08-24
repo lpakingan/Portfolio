@@ -14,7 +14,6 @@ const styles = {
   listStyle: {
     textDecoration: "none",
     color: "black",
-    transition: "font-size 0.3s ease-in-out",
   },
 };
 
