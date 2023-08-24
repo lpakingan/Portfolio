@@ -1,5 +1,6 @@
 import React from "react";
 import aboutMeImage from "../assets/aboutme_pic.png";
+import banner from "../assets/banners/about_pic.png";
 
 const styles = {
   background: {
@@ -30,13 +31,25 @@ const styles = {
     height: "50%",
     margin: "0 auto",
   },
+  bannerStyle: {
+    display: "flex",
+    width: "40%",
+    height: "50%",
+    margin: "auto",
+    padding: "2rem",
+  },
 };
 
 export default function About() {
   return (
     <section class="about_me" style={styles.background}>
       <div id="about_me" style={styles.font}>
-        <h1 style={styles.headingStyle}>Welcome to my Portfolio!</h1>
+        <img
+          class="welcome"
+          style={styles.bannerStyle}
+          src={banner}
+          alt="Welcome Banner"
+        />
         <p style={styles.paragraphStyle}>
           Hello! This is my working portfolio of all my projects and assignments
           I have completed during a coding bootcamp I am currently attending.{" "}

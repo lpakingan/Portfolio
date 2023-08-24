@@ -3,11 +3,13 @@ import React from "react";
 const styles = {
   navbarStyle: {
     fontSize: "30px",
-    paddingBottom: "5rem",
+    paddingBottom: "2rem",
     listStyleType: "none",
     display: "flex",
     gap: "30px",
     justifyContent: "center",
+    fontWeight: "bold",
+    paddingLeft: "0",
   },
   listStyle: {
     textDecoration: "none",

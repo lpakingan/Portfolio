@@ -4,6 +4,7 @@ import earthquakeImage from "../assets/projects/earthquaketracker_image.jpg";
 import cssImage from "../assets/projects/cssportfolio_image.jpg";
 import quizImage from "../assets/projects/codequiz_image.jpg";
 import weatherImage from "../assets/projects/weatherdashboard_image.jpg";
+import banner from "../assets/banners/projects_pic.png";
 
 const styles = {
   background: {
@@ -29,12 +30,19 @@ const styles = {
     padding: "0 5rem",
   },
   pictureStyle: {
-    border: "1rem solid #E1DEE9",
+    border: "0.5rem solid #DBCEFF",
     width: "60%",
     flex: "1",
     height: "auto",
     boxSizing: "border-box",
     margin: "0 0 5rem 0",
+  },
+  bannerStyle: {
+    display: "flex",
+    width: "40%",
+    height: "50%",
+    margin: "auto",
+    padding: "2rem",
   },
 };
 
@@ -42,7 +50,12 @@ export default function Projects() {
   return (
     <section style={styles.background}>
       <div id="projects" style={styles.font}>
-        <h2 style={styles.headingStyle}>Projects</h2>
+        <img
+          class="project_banner"
+          style={styles.bannerStyle}
+          src={banner}
+          alt="Projects"
+        />
 
         <div class="project_display">
           <div class="project">
@@ -50,9 +63,8 @@ export default function Projects() {
               GameShare
             </div>
             <p style={styles.projectDescription}>
-              An application that allows you to search through a free-to-play
-              game database and add games to your own personal library and
-              friends to your friends list. <br></br>
+              An application where you can search through a free-to-play game
+              database and add games to your own personal library. <br></br>
               <br></br>Uses FreeToGame API.
             </p>
             <a href="https://gameshare-97b263a86cef.herokuapp.com/">

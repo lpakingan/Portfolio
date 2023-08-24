@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
+import banner from "../assets/banners/contact_pic.png";
 
 const styles = {
   background: {
@@ -14,7 +15,7 @@ const styles = {
     textAlign: "center",
   },
   headingStyle: {
-    fontSize: "100px",
+    fontSize: "80px",
   },
   paragraphStyle: {
     fontSize: "25px",
@@ -47,6 +48,13 @@ const styles = {
     borderRadius: "0.5rem",
     border: "none",
     cursor: "pointer",
+  },
+  bannerStyle: {
+    display: "flex",
+    width: "40%",
+    height: "50%",
+    margin: "auto",
+    padding: "2rem",
   },
 };
 
@@ -91,7 +99,12 @@ function Contact() {
   return (
     <section style={styles.background}>
       <div style={styles.font}>
-        <h1 style={styles.headingStyle}>Contact Me!</h1>
+        <img
+          class="contact_banner"
+          style={styles.bannerStyle}
+          src={banner}
+          alt="Contact Me"
+        />
         <form className="form">
           <p style={styles.paragraphStyle}>Name</p>
           <input

@@ -4,6 +4,7 @@ import About from "./about";
 import Projects from "./project";
 import Contact from "./contact";
 import banner from "../assets/header/header_banner.png";
+import title from "../assets/header/header_pic.png";
 
 const styles = {
   background: {
@@ -23,6 +24,12 @@ const styles = {
     fontSize: "25px",
     paddingBottom: "5rem",
     padding: "0 5rem",
+  },
+  pictureStyle: {
+    display: "flex",
+    width: "70%",
+    height: "50%",
+    margin: "0 auto",
   },
 };
 
@@ -46,7 +53,12 @@ export default function Header() {
   return (
     <header class="header" style={styles.background}>
       <div id="header" style={styles.font}>
-        <h3 style={styles.headingStyle}>Liana Pakingan</h3>
+        <img
+          class="header_title"
+          style={styles.pictureStyle}
+          src={title}
+          alt="Liana Pakingan"
+        />
         <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}
