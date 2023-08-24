@@ -28,6 +28,7 @@ const styles = {
     borderRadius: "0.5rem",
     border: "none",
     fontSize: "15px",
+    height: "1.5rem",
   },
   messageStyle: {
     fontFamily: "Outfit",

@@ -52,6 +52,16 @@ export default function Navigation({ currentPage, handlePageChange }) {
           Contact Me
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          style={styles.listStyle}
+          onClick={() => handlePageChange("Resume")}
+          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+        >
+          Resume
+        </a>
+      </li>
     </ul>
   );
 }

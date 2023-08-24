@@ -3,6 +3,7 @@ import Navigation from "./navigation";
 import About from "./about";
 import Projects from "./project";
 import Contact from "./contact";
+import Resume from "./resume";
 import banner from "../assets/header/header_banner.png";
 import title from "../assets/header/header_pic.png";
 
@@ -45,6 +46,9 @@ export default function Header() {
     }
     if (currentPage === "Contact") {
       return <Contact />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
     }
   };
 
