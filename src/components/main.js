@@ -11,7 +11,7 @@ export default function MainPage() {
     if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === "Projects") {
+    if (currentPage === "Portfolio") {
       return <Projects />;
     }
     if (currentPage === "Contact") {
