@@ -3,7 +3,7 @@ import aboutMeImage from "../assets/aboutme_pic.png";
 
 const styles = {
   background: {
-    background: "linear-gradient(#E1DEE9, #A09ABC)",
+    background: "linear-gradient(#E1DEE9, #D4BEBE)",
     padding: "0",
     margin: "0",
   },
