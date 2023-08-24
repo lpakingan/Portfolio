@@ -3,9 +3,11 @@ import { validateEmail } from "../utils/helpers";
 
 const styles = {
   background: {
-    background: "linear-gradient(#E1DEE9, #D4BEBE)",
-    padding: "0",
-    margin: "0",
+    background: "linear-gradient(#FAE2FF, #B6A6CA)",
+    padding: "2rem",
+    margin: "1rem auto",
+    borderRadius: "3rem",
+    width: "70%",
   },
   font: {
     fontFamily: "Outfit",
@@ -16,7 +18,6 @@ const styles = {
   },
   paragraphStyle: {
     fontSize: "25px",
-    paddingBottom: "5rem",
     padding: "0 5rem",
   },
   inputStyle: {

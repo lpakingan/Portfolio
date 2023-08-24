@@ -7,9 +7,11 @@ import weatherImage from "../assets/projects/weatherdashboard_image.jpg";
 
 const styles = {
   background: {
-    background: "linear-gradient(#E1DEE9, #D4BEBE)",
-    padding: "0",
-    margin: "0",
+    background: "linear-gradient(#FAE2FF, #B6A6CA)",
+    padding: "2rem",
+    margin: "1rem auto",
+    borderRadius: "3rem",
+    width: "70%",
   },
   font: {
     fontFamily: "Outfit",

@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Navigation from "./navigation";
+import About from "./about";
+import Projects from "./project";
+import Contact from "./contact";
 import banner from "../assets/header/header_banner.png";
 
 const styles = {
@@ -23,15 +26,32 @@ const styles = {
   },
 };
 
-export default function Header({ currentPage, handlePageChange }) {
+export default function Header() {
+  const [currentPage, setCurrentPage] = useState("About");
+
+  const renderPage = () => {
+    if (currentPage === "About") {
+      return <About />;
+    }
+    if (currentPage === "Portfolio") {
+      return <Projects />;
+    }
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <header class="header" style={styles.background}>
       <div id="header" style={styles.font}>
-        <h3 style={styles.headingStyle}>Liana's Portfolio</h3>
+        <h3 style={styles.headingStyle}>Liana Pakingan</h3>
         <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}
         />
+        {renderPage()}
       </div>
     </header>
   );

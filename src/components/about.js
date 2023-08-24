@@ -3,16 +3,18 @@ import aboutMeImage from "../assets/aboutme_pic.png";
 
 const styles = {
   background: {
-    background: "linear-gradient(#E1DEE9, #D4BEBE)",
-    padding: "0",
-    margin: "0",
+    background: "linear-gradient(#FAE2FF, #B6A6CA)",
+    padding: "2rem",
+    margin: "1rem auto",
+    borderRadius: "3rem",
+    width: "70%",
   },
   font: {
     fontFamily: "Outfit",
     textAlign: "center",
   },
   headingStyle: {
-    fontSize: "100px",
+    fontSize: "80px",
   },
   paragraphStyle: {
     fontSize: "25px",
@@ -21,8 +23,12 @@ const styles = {
   },
   pictureStyle: {
     borderRadius: "50%",
-    background: "linear-gradient(#E1DEE9, #A09ABC)",
-    border: "1rem solid #B6A6CA",
+    background: "linear-gradient(#FAE2FF, #B6A6CA)",
+    border: "0.5rem solid #B6A6CA",
+    display: "flex",
+    width: "50%",
+    height: "50%",
+    margin: "0 auto",
   },
 };
 
