@@ -25,7 +25,7 @@ const styles = {
   pictureStyle: {
     borderRadius: "50%",
     background: "linear-gradient(#FAE2FF, #B6A6CA)",
-    border: "0.5rem solid #B6A6CA",
+    border: "0.5rem solid #DBCEFF",
     display: "flex",
     width: "50%",
     height: "50%",

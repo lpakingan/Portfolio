@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="react-portfolio">
       <Header />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
