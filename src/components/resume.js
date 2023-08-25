@@ -33,7 +33,7 @@ const styles = {
 export default function Resume() {
   return (
     <section class="resume" style={styles.background}>
-      <div id="resume" style={styles.font}>
+      <div style={styles.font}>
         <img
           class="resume_title"
           style={styles.bannerStyle}

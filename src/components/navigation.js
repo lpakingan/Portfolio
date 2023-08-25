@@ -6,6 +6,7 @@ const styles = {
     paddingBottom: "2rem",
     listStyleType: "none",
     display: "flex",
+    flexWrap: "wrap",
     gap: "30px",
     justifyContent: "center",
     fontWeight: "bold",
@@ -15,6 +16,9 @@ const styles = {
     textDecoration: "none",
     color: "black",
   },
+  activeStyle: {
+    borderBottom: "2px solid black",
+  },
 };
 
 export default function Navigation({ currentPage, handlePageChange }) {
@@ -23,7 +27,10 @@ export default function Navigation({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#about"
-          style={styles.listStyle}
+          style={{
+            ...styles.listStyle,
+            ...(currentPage === "About" ? styles.activeStyle : {}),
+          }}
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
@@ -33,7 +40,10 @@ export default function Navigation({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#portfolio"
-          style={styles.listStyle}
+          style={{
+            ...styles.listStyle,
+            ...(currentPage === "Portfolio" ? styles.activeStyle : {}),
+          }}
           onClick={() => handlePageChange("Portfolio")}
           className={
             currentPage === "Portfolio" ? "nav-link active" : "nav-link"
@@ -45,7 +55,10 @@ export default function Navigation({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#contact"
-          style={styles.listStyle}
+          style={{
+            ...styles.listStyle,
+            ...(currentPage === "Contact" ? styles.activeStyle : {}),
+          }}
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
@@ -55,7 +68,10 @@ export default function Navigation({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#resume"
-          style={styles.listStyle}
+          style={{
+            ...styles.listStyle,
+            ...(currentPage === "Resume" ? styles.activeStyle : {}),
+          }}
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
