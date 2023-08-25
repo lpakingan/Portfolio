@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.2b031c79.css",
-    "main.js": "/react-portfolio/static/js/main.24397c0e.js",
+    "main.js": "/react-portfolio/static/js/main.0668db17.js",
     "static/media/header_banner.png": "/react-portfolio/static/media/header_banner.ace1c3d7eed8f1e332f9.png",
     "static/media/earthquaketracker_image.jpg": "/react-portfolio/static/media/earthquaketracker_image.f91825ca53674b340b66.jpg",
     "static/media/cssportfolio_image.jpg": "/react-portfolio/static/media/cssportfolio_image.b166509a3442f6997534.jpg",
@@ -15,10 +15,10 @@
     "static/media/projects_pic.png": "/react-portfolio/static/media/projects_pic.6ed0519d3ec6c2da4447.png",
     "index.html": "/react-portfolio/index.html",
     "main.2b031c79.css.map": "/react-portfolio/static/css/main.2b031c79.css.map",
-    "main.24397c0e.js.map": "/react-portfolio/static/js/main.24397c0e.js.map"
+    "main.0668db17.js.map": "/react-portfolio/static/js/main.0668db17.js.map"
   },
   "entrypoints": [
     "static/css/main.2b031c79.css",
-    "static/js/main.24397c0e.js"
+    "static/js/main.0668db17.js"
   ]
 }
