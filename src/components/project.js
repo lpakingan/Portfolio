@@ -35,7 +35,6 @@ const styles = {
     flex: "1",
     height: "auto",
     boxSizing: "border-box",
-    margin: "0 0 5rem 0",
   },
   bannerStyle: {
     display: "flex",
@@ -43,6 +42,22 @@ const styles = {
     height: "50%",
     margin: "auto",
     padding: "2rem",
+  },
+  buttonStyle: {
+    padding: "0.5rem",
+    margin: " 2rem 0.5rem",
+    fontFamily: "Outfit",
+    color: "black",
+    background: "#A09ABC",
+    fontSize: "20px",
+    borderRadius: "0.5rem",
+    border: "none",
+    cursor: "pointer",
+    fontWeight: "bold",
+  },
+  dividerStyle: {
+    fontSize: "20px",
+    fontWeight: "bold",
   },
 };
 
@@ -59,6 +74,7 @@ export default function Projects() {
 
         <div class="project_display">
           <div class="project">
+            <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
             <div class="project_title" style={styles.projectTitle}>
               GameShare
             </div>
@@ -67,17 +83,23 @@ export default function Projects() {
               database and add games to your own personal library. <br></br>
               <br></br>Uses FreeToGame API.
             </p>
+            <img
+              class="gameshare_picture"
+              style={styles.pictureStyle}
+              src={gameshareImage}
+              alt="GameShare"
+            />
+            <br></br>
+            <a href="https://github.com/lpakingan/GameShare">
+              <button style={styles.buttonStyle}>GitHub</button>
+            </a>
             <a href="https://gameshare-97b263a86cef.herokuapp.com/">
-              <img
-                class="gameshare_picture"
-                style={styles.pictureStyle}
-                src={gameshareImage}
-                alt="GameShare"
-              />
+              <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
 
           <div class="project">
+            <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
             <div class="project_title" style={styles.projectTitle}>
               Earthquake Tracker
             </div>
@@ -86,17 +108,23 @@ export default function Projects() {
               search criteria. <br></br>
               <br></br>Uses USGS Earthquake Catalog API and Google Maps API.
             </p>
-            <a href="https://github.com/lpakingan/project-1-earthquake-tracker">
-              <img
-                class="earthquake_picture"
-                style={styles.pictureStyle}
-                src={earthquakeImage}
-                alt="Earthquake Tracker"
-              />
+            <img
+              class="earthquake_picture"
+              style={styles.pictureStyle}
+              src={earthquakeImage}
+              alt="Earthquake Tracker"
+            />
+            <br></br>
+            <a href="https://github.com/lpakingan/earthquake-tracker">
+              <button style={styles.buttonStyle}>GitHub</button>
+            </a>
+            <a href="https://lpakingan.github.io/earthquake-tracker/">
+              <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
 
           <div class="project">
+            <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
             <div class="project_title" style={styles.projectTitle}>
               Weather Dashboard
             </div>
@@ -105,47 +133,64 @@ export default function Projects() {
               city. <br></br>
               <br></br>Uses OpenWeather API.
             </p>
+            <img
+              class="weather_picture"
+              style={styles.pictureStyle}
+              src={weatherImage}
+              alt="Weather Dashboard"
+            />
+            <br></br>
             <a href="https://github.com/lpakingan/challenge-6-weather-dashboard">
-              <img
-                class="weather_picture"
-                style={styles.pictureStyle}
-                src={weatherImage}
-                alt="Weather Dashboard"
-              />
+              <button style={styles.buttonStyle}>GitHub</button>
+            </a>
+            <a href="https://github.com/lpakingan/weather-dashboard">
+              <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
 
           <div class="project">
+            <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
             <div class="project_title" style={styles.projectTitle}>
               Code Quiz
             </div>
             <p style={styles.projectDescription}>
               A Javascript-based timed quiz on coding.
             </p>
+            <img
+              class="quiz_picture"
+              style={styles.pictureStyle}
+              src={quizImage}
+              alt="Code Quiz"
+            />
+            <br></br>
             <a href="https://github.com/lpakingan/challenge-4-code-quiz">
-              <img
-                class="quiz_picture"
-                style={styles.pictureStyle}
-                src={quizImage}
-                alt="Code Quiz"
-              />
+              <button style={styles.buttonStyle}>GitHub</button>
+            </a>
+            <a href="https://lpakingan.github.io/code-quiz/">
+              <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
 
           <div class="project">
+            <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
             <div class="project_title" style={styles.projectTitle}>
               CSS Portfolio
             </div>
             <p style={styles.projectDescription}>
               My first portfolio built using CSS.
             </p>
+            <img
+              class="portfolio_picture"
+              style={styles.pictureStyle}
+              src={cssImage}
+              alt="CSS Portfolio"
+            />
+            <br></br>
             <a href="https://github.com/lpakingan/css-portfolio">
-              <img
-                class="portfolio_picture"
-                style={styles.pictureStyle}
-                src={cssImage}
-                alt="CSS Portfolio"
-              />
+              <button style={styles.buttonStyle}>GitHub</button>
+            </a>
+            <a href="https://lpakingan.github.io/css-portfolio/">
+              <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
         </div>

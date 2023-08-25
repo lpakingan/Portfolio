@@ -20,6 +20,7 @@ const styles = {
   paragraphStyle: {
     fontSize: "25px",
     padding: "0 5rem",
+    fontWeight: "bold",
   },
   inputStyle: {
     fontFamily: "Outfit",
@@ -42,13 +43,15 @@ const styles = {
   },
   buttonStyle: {
     padding: "0.5rem",
+    margin: " 2rem 0.5rem",
     fontFamily: "Outfit",
     color: "black",
     background: "#A09ABC",
-    fontSize: "15px",
+    fontSize: "20px",
     borderRadius: "0.5rem",
     border: "none",
     cursor: "pointer",
+    fontWeight: "bold",
   },
   bannerStyle: {
     display: "flex",
