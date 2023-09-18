@@ -1,4 +1,5 @@
 import React from "react";
+import eventfullImage from "../assets/projects/eventfull_image.jpg";
 import gameshareImage from "../assets/projects/gameshare_image.jpg";
 import earthquakeImage from "../assets/projects/earthquaketracker_image.jpg";
 import cssImage from "../assets/projects/cssportfolio_image.jpg";
@@ -76,6 +77,35 @@ export default function Projects() {
           <div class="project">
             <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
             <div class="project_title" style={styles.projectTitle}>
+              Eventfull
+            </div>
+            <p style={styles.projectDescription}>
+              A social networking platform where event-goers can connect with
+              one another pre-event in order to optimize their event experience.{" "}
+              <br></br>
+              <br></br>Uses SeatGeek API
+            </p>
+            <img
+              class="eventfull_picture"
+              style={styles.pictureStyle}
+              src={eventfullImage}
+              alt="Eventfull"
+            />
+            <br></br>
+            <a href="https://github.com/lpakingan/Eventfull" target="_blank">
+              <button style={styles.buttonStyle}>GitHub</button>
+            </a>
+            <a
+              href="https://eventfull-c6ee6f293464.herokuapp.com/"
+              target="_blank"
+            >
+              <button style={styles.buttonStyle}>Deployed</button>
+            </a>
+          </div>
+
+          <div class="project">
+            <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
+            <div class="project_title" style={styles.projectTitle}>
               GameShare
             </div>
             <p style={styles.projectDescription}>
@@ -90,10 +120,13 @@ export default function Projects() {
               alt="GameShare"
             />
             <br></br>
-            <a href="https://github.com/lpakingan/GameShare">
+            <a href="https://github.com/lpakingan/GameShare" target="_blank">
               <button style={styles.buttonStyle}>GitHub</button>
             </a>
-            <a href="https://gameshare-97b263a86cef.herokuapp.com/">
+            <a
+              href="https://gameshare-97b263a86cef.herokuapp.com/"
+              target="_blank"
+            >
               <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
@@ -115,10 +148,16 @@ export default function Projects() {
               alt="Earthquake Tracker"
             />
             <br></br>
-            <a href="https://github.com/lpakingan/earthquake-tracker">
+            <a
+              href="https://github.com/lpakingan/earthquake-tracker"
+              target="_blank"
+            >
               <button style={styles.buttonStyle}>GitHub</button>
             </a>
-            <a href="https://lpakingan.github.io/earthquake-tracker/">
+            <a
+              href="https://lpakingan.github.io/earthquake-tracker/"
+              target="_blank"
+            >
               <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
@@ -140,10 +179,16 @@ export default function Projects() {
               alt="Weather Dashboard"
             />
             <br></br>
-            <a href="https://github.com/lpakingan/challenge-6-weather-dashboard">
+            <a
+              href="https://github.com/lpakingan/challenge-6-weather-dashboard"
+              target="_blank"
+            >
               <button style={styles.buttonStyle}>GitHub</button>
             </a>
-            <a href="https://github.com/lpakingan/weather-dashboard">
+            <a
+              href="https://github.com/lpakingan/weather-dashboard"
+              target="_blank"
+            >
               <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
@@ -163,10 +208,13 @@ export default function Projects() {
               alt="Code Quiz"
             />
             <br></br>
-            <a href="https://github.com/lpakingan/challenge-4-code-quiz">
+            <a
+              href="https://github.com/lpakingan/challenge-4-code-quiz"
+              target="_blank"
+            >
               <button style={styles.buttonStyle}>GitHub</button>
             </a>
-            <a href="https://lpakingan.github.io/code-quiz/">
+            <a href="https://lpakingan.github.io/code-quiz/" target="_blank">
               <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
@@ -186,10 +234,16 @@ export default function Projects() {
               alt="CSS Portfolio"
             />
             <br></br>
-            <a href="https://github.com/lpakingan/css-portfolio">
+            <a
+              href="https://github.com/lpakingan/css-portfolio"
+              target="_blank"
+            >
               <button style={styles.buttonStyle}>GitHub</button>
             </a>
-            <a href="https://lpakingan.github.io/css-portfolio/">
+            <a
+              href="https://lpakingan.github.io/css-portfolio/"
+              target="_blank"
+            >
               <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
