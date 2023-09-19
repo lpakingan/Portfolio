@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.2b031c79.css",
-    "main.js": "/react-portfolio/static/js/main.0668db17.js",
+    "main.js": "/react-portfolio/static/js/main.22381a1a.js",
     "static/media/header_banner.png": "/react-portfolio/static/media/header_banner.ace1c3d7eed8f1e332f9.png",
     "static/media/earthquaketracker_image.jpg": "/react-portfolio/static/media/earthquaketracker_image.f91825ca53674b340b66.jpg",
     "static/media/cssportfolio_image.jpg": "/react-portfolio/static/media/cssportfolio_image.b166509a3442f6997534.jpg",
+    "static/media/eventfull_image.jpg": "/react-portfolio/static/media/eventfull_image.ef80002c4c0b4c6472a7.jpg",
     "static/media/weatherdashboard_image.jpg": "/react-portfolio/static/media/weatherdashboard_image.2c8f5f3e4b7341ab687e.jpg",
     "static/media/aboutme_pic.png": "/react-portfolio/static/media/aboutme_pic.350e2965986719eb5ddd.png",
     "static/media/codequiz_image.jpg": "/react-portfolio/static/media/codequiz_image.e9c873373f47df57db15.jpg",
@@ -15,10 +16,10 @@
     "static/media/projects_pic.png": "/react-portfolio/static/media/projects_pic.6ed0519d3ec6c2da4447.png",
     "index.html": "/react-portfolio/index.html",
     "main.2b031c79.css.map": "/react-portfolio/static/css/main.2b031c79.css.map",
-    "main.0668db17.js.map": "/react-portfolio/static/js/main.0668db17.js.map"
+    "main.22381a1a.js.map": "/react-portfolio/static/js/main.22381a1a.js.map"
   },
   "entrypoints": [
     "static/css/main.2b031c79.css",
-    "static/js/main.0668db17.js"
+    "static/js/main.22381a1a.js"
   ]
 }
