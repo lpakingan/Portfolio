@@ -51,9 +51,9 @@ export default function About() {
           alt="Welcome Banner"
         />
         <p style={styles.paragraphStyle}>
-          Welcome! My name is Liana Pakingan, and this is my working portfolio
-          of various front-end, back-end, and full-stack projects I have
-          completed. <br></br> <br></br>
+          My name is Liana Pakingan, and this is my working portfolio of various
+          front-end, back-end, and full-stack projects I have completed.{" "}
+          <br></br> <br></br>
           To give some background about myself, I graduated from the University
           of California, Irvine (UCI) in 2020 with my Bachelor's degree in
           Neurobiology. I then went to the University of Southern California

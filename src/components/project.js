@@ -150,13 +150,13 @@ export default function Projects() {
             />
             <br></br>
             <a
-              href="https://github.com/lpakingan/earthquake-tracker"
+              href="https://github.com/lpakingan/EarthquakeTracker"
               target="_blank"
             >
               <button style={styles.buttonStyle}>GitHub</button>
             </a>
             <a
-              href="https://lpakingan.github.io/earthquake-tracker/"
+              href="https://lpakingan.github.io/EarthquakeTracker/"
               target="_blank"
             >
               <button style={styles.buttonStyle}>Deployed</button>
@@ -181,13 +181,13 @@ export default function Projects() {
             />
             <br></br>
             <a
-              href="https://github.com/lpakingan/challenge-6-weather-dashboard"
+              href="https://github.com/lpakingan/WeatherDashboard"
               target="_blank"
             >
               <button style={styles.buttonStyle}>GitHub</button>
             </a>
             <a
-              href="https://github.com/lpakingan/weather-dashboard"
+              href="https://lpakingan.github.io/WeatherDashboard/"
               target="_blank"
             >
               <button style={styles.buttonStyle}>Deployed</button>
@@ -209,13 +209,10 @@ export default function Projects() {
               alt="Code Quiz"
             />
             <br></br>
-            <a
-              href="https://github.com/lpakingan/challenge-4-code-quiz"
-              target="_blank"
-            >
+            <a href="https://github.com/lpakingan/CodeQuiz" target="_blank">
               <button style={styles.buttonStyle}>GitHub</button>
             </a>
-            <a href="https://lpakingan.github.io/code-quiz/" target="_blank">
+            <a href="https://lpakingan.github.io/CodeQuiz/" target="_blank">
               <button style={styles.buttonStyle}>Deployed</button>
             </a>
           </div>
