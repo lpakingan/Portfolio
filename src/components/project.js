@@ -83,7 +83,7 @@ export default function Projects() {
               A social networking platform where event-goers can connect with
               one another pre-event in order to optimize their event experience.{" "}
               <br></br>
-              <br></br>Uses SeatGeek API
+              <br></br>Uses SeatGeek API, MongoDB, React
             </p>
             <img
               class="eventfull_picture"
@@ -111,7 +111,7 @@ export default function Projects() {
             <p style={styles.projectDescription}>
               An application where you can search through a free-to-play game
               database and add games to your own personal library. <br></br>
-              <br></br>Uses FreeToGame API.
+              <br></br>Uses FreeToGame API, SQL, Express.js
             </p>
             <img
               class="gameshare_picture"
@@ -139,7 +139,8 @@ export default function Projects() {
             <p style={styles.projectDescription}>
               An application for finding earthquakes based on your own specific
               search criteria. <br></br>
-              <br></br>Uses USGS Earthquake Catalog API and Google Maps API.
+              <br></br>Uses USGS Earthquake Catalog API and Google Maps API,
+              HTML/CSS
             </p>
             <img
               class="earthquake_picture"
@@ -170,7 +171,7 @@ export default function Projects() {
             <p style={styles.projectDescription}>
               An application for finding the future weather forecast for any
               city. <br></br>
-              <br></br>Uses OpenWeather API.
+              <br></br>Uses OpenWeather API, HTML/CSS
             </p>
             <img
               class="weather_picture"

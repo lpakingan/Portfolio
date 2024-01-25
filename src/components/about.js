@@ -64,7 +64,7 @@ export default function About() {
           Alzheimer's disease. In my latest career, I was a Human Brain Imaging
           Research Coordinator, where I was conducting outreach for,
           standardizing and assessing quality of large electromagnetic brain
-          data. As someone who understands the need to be proficient when it
+          datasets. As someone who understands the need to be proficient when it
           comes to handling big data, especially in research studies, I most
           recently have received certification in computer programming
           techniques such as JavaScript and database management through SQL. You
