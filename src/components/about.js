@@ -61,20 +61,20 @@ export default function About() {
           and Informatics.
           <br></br> <br></br>I have been involved in neurodegenerative research
           the majority of my academic career, with my main concentration in
-          Alzheimer's disease. In my latest career, I was a Human Brain Imaging
-          Research Coordinator, where I was conducting outreach for,
+          Alzheimer's disease. In my latest position, I was a Human Brain
+          Imaging Research Coordinator, where I was conducting outreach for,
           standardizing and assessing quality of large electromagnetic brain
           datasets. As someone who understands the need to be proficient when it
           comes to handling big data, especially in research studies, I most
           recently have received certification in computer programming
           techniques such as JavaScript and database management through SQL. You
-          can see examples of this in 'Portfolio' tab. Through these new-found
-          proficiencies, I believe I can now excel in a data-driven or web
-          development role.
+          can see examples of my work I finished during my certification in the
+          'Portfolio' tab. Through these new-found proficiencies, I believe I
+          can now better excel in a data-driven or web development role.
           <br></br> <br></br>
-          Thank you for taking the time to check my portfolio out! If you would
-          like to contact me, feel free to reach out on the 'Contact Me' page.
-          I'm always looking for new projects to collaborate on!
+          Thank you for taking the time to check my out my portfolio. If you
+          would like to contact me, feel free to reach out on the 'Contact Me'
+          page. I'm always looking for new projects to collaborate on!
         </p>
         <img
           class="about_me_picture"

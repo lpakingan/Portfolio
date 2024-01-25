@@ -54,19 +54,6 @@ export default function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#contact"
-          style={{
-            ...styles.listStyle,
-            ...(currentPage === "Contact" ? styles.activeStyle : {}),
-          }}
-          onClick={() => handlePageChange("Contact")}
-          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact Me
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
           href="#resume"
           style={{
             ...styles.listStyle,
@@ -76,6 +63,19 @@ export default function Navigation({ currentPage, handlePageChange }) {
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
           Resume
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          style={{
+            ...styles.listStyle,
+            ...(currentPage === "Contact" ? styles.activeStyle : {}),
+          }}
+          onClick={() => handlePageChange("Contact")}
+          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+        >
+          Contact Me
         </a>
       </li>
     </ul>
