@@ -51,18 +51,30 @@ export default function About() {
           alt="Welcome Banner"
         />
         <p style={styles.paragraphStyle}>
-          Hello! This is my working portfolio of all my projects and assignments
-          I have completed during a coding bootcamp I am currently attending.{" "}
+          Welcome! My name is Liana Pakingan, and this is my working portfolio
+          of various front-end, back-end, and full-stack projects I have
+          completed. <br></br> <br></br>
+          To give some background about myself, I graduated from the University
+          of California, Irvine (UCI) in 2020 with my Bachelor's degree in
+          Neurobiology. I then went to the University of Southern California
+          (USC) and graduated in 2022 with my Master's degree in Neuroimaging
+          and Informatics.
+          <br></br> <br></br>I have been involved in neurodegenerative research
+          the majority of my academic career, with my main concentration in
+          Alzheimer's disease. In my latest career, I was a Human Brain Imaging
+          Research Coordinator, where I was conducting outreach for,
+          standardizing and assessing quality of large electromagnetic brain
+          data. As someone who understands the need to be proficient when it
+          comes to handling big data, especially in research studies, I most
+          recently have received certification in computer programming
+          techniques such as JavaScript and database management through SQL. You
+          can see examples of this in 'Portfolio' tab. Through these new-found
+          proficiencies, I believe I can now excel in a data-driven or web
+          development role.
           <br></br> <br></br>
-          My name is Liana! To give some background about myself, I graduated
-          from the University of California, Irvine (UCI) in 2020 with my
-          Bachelor's degree in Neurobiology. I then went to the University of
-          Southern California (USC) and graduated in 2022 with my Master's
-          degree in Neuroimaging and Informatics. <br></br> <br></br>I have been
-          involved in neurodegenerative research the majority of my academic
-          career, with my main concentration in Alzheimer's disease. I am
-          excited to learn how to code and how to apply it in a research
-          setting!
+          Thank you for taking the time to check my portfolio out! If you would
+          like to contact me, feel free to reach out on the 'Contact Me' page.
+          I'm always looking for new projects to collaborate on!
         </p>
         <img
           class="about_me_picture"
