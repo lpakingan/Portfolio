@@ -1,6 +1,6 @@
 import React from "react";
 import eventfullImage from "../assets/projects/eventfull_image.jpg";
-import gameshareImage from "../assets/projects/gameshare_image.jpg";
+import gameshareGif from "../assets/projects/gameshare_gif.gif";
 import earthquakeImage from "../assets/projects/earthquaketracker_image.jpg";
 import cssImage from "../assets/projects/cssportfolio_image.jpg";
 import quizImage from "../assets/projects/codequiz_image.jpg";
@@ -116,7 +116,7 @@ export default function Projects() {
             <img
               class="gameshare_picture"
               style={styles.pictureStyle}
-              src={gameshareImage}
+              src={gameshareGif}
               alt="GameShare"
             />
             <br></br>

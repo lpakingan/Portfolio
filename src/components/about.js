@@ -64,13 +64,15 @@ export default function About() {
           Alzheimer's disease. In my latest position, I was a Human Brain
           Imaging Research Coordinator, where I was conducting outreach for,
           standardizing and assessing quality of large electromagnetic brain
-          datasets. As someone who understands the need to be proficient when it
-          comes to handling big data, especially in research studies, I most
-          recently have received certification in computer programming
-          techniques such as JavaScript and database management through SQL. You
-          can see examples of my work I finished during my certification in the
-          'Portfolio' tab. Through these new-found proficiencies, I believe I
-          can now better excel in a data-driven or web development role.
+          datasets.
+          <br></br> <br></br>
+          As someone who understands the need to be proficient when it comes to
+          handling big data, especially in research studies, I most recently
+          have received certification in computer programming techniques such as
+          JavaScript and database management through SQL. You can see examples
+          of my work I finished during my certification in the 'Portfolio' tab.
+          Through these new-found proficiencies, I believe I can now better
+          excel in a data-driven or web development role.
           <br></br> <br></br>
           Thank you for taking the time to check my out my portfolio. If you
           would like to contact me, feel free to reach out on the 'Contact Me'

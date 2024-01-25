@@ -1,5 +1,6 @@
 import github from "../assets/footer/github-logo.png";
 import instagram from "../assets/footer/instagram-logo.png";
+import linkedin from "../assets/footer/linkedin-logo.png";
 
 const styles = {
   background: {
@@ -20,7 +21,7 @@ const styles = {
 export default function Footer() {
   return (
     <footer class="footer" style={styles.background}>
-      <a href="https://github.com/lpakingan">
+      <a href="https://github.com/lpakingan" target="_blank">
         <img
           class="github_icon"
           style={styles.pictureStyle}
@@ -28,12 +29,20 @@ export default function Footer() {
           alt="github"
         />
       </a>
-      <a href="https://www.instagram.com/l.pakingan/">
+      <a href="https://www.instagram.com/l.pakingan/" target="_blank">
         <img
           class="instagram_icon"
           style={styles.pictureStyle}
           src={instagram}
           alt="instagram"
+        />
+      </a>
+      <a href="https://www.linkedin.com/in/lianapakingan/" target="_blank">
+        <img
+          class="linkedin_icon"
+          style={styles.pictureStyle}
+          src={linkedin}
+          alt="linkedin"
         />
       </a>
     </footer>

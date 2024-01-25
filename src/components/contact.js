@@ -37,7 +37,7 @@ const styles = {
     width: "30%",
     fontSize: "15px",
     verticalAlign: "top",
-    textAlign: "left",
+    textAlign: "center",
     borderRadius: "0.5rem",
     border: "none",
   },
