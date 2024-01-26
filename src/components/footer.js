@@ -17,6 +17,15 @@ const styles = {
     display: "inline-block",
     margin: "1rem",
   },
+  font: {
+    fontFamily: "Outfit",
+  },
+  paragraphStyle: {
+    fontSize: "25px",
+    fontWeight: "bold",
+    color: "white",
+    padding: "0 0 0 2rem",
+  },
 };
 
 export default function Footer() {
@@ -54,6 +63,9 @@ export default function Footer() {
           alt="email"
         />
       </a>
+      <div style={styles.font}>
+        <p style={styles.paragraphStyle}> Liana Pakingan 2024</p>
+      </div>
     </footer>
   );
 }
