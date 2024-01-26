@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.2b031c79.css",
-    "main.js": "/Portfolio/static/js/main.a5d87d73.js",
+    "main.js": "/Portfolio/static/js/main.d963e5ae.js",
     "static/media/gameshare_gif.gif": "/Portfolio/static/media/gameshare_gif.d869920a3053e5612b97.gif",
     "static/media/portfolio_pic.jpg": "/Portfolio/static/media/portfolio_pic.5790998d596c453aec4d.jpg",
     "static/media/header_banner.png": "/Portfolio/static/media/header_banner.ace1c3d7eed8f1e332f9.png",
@@ -11,15 +11,14 @@
     "static/media/weatherdashboard_image.jpg": "/Portfolio/static/media/weatherdashboard_image.2c8f5f3e4b7341ab687e.jpg",
     "static/media/codequiz_image.jpg": "/Portfolio/static/media/codequiz_image.e9c873373f47df57db15.jpg",
     "static/media/instagram-logo.png": "/Portfolio/static/media/instagram-logo.e5fa71d9703562070719.png",
-    "static/media/header_pic.png": "/Portfolio/static/media/header_pic.4ba6252081fcb5ef29d7.png",
     "static/media/contact_pic.png": "/Portfolio/static/media/contact_pic.5334bae3c4748fa314b2.png",
     "static/media/projects_pic.png": "/Portfolio/static/media/projects_pic.6ed0519d3ec6c2da4447.png",
     "index.html": "/Portfolio/index.html",
     "main.2b031c79.css.map": "/Portfolio/static/css/main.2b031c79.css.map",
-    "main.a5d87d73.js.map": "/Portfolio/static/js/main.a5d87d73.js.map"
+    "main.d963e5ae.js.map": "/Portfolio/static/js/main.d963e5ae.js.map"
   },
   "entrypoints": [
     "static/css/main.2b031c79.css",
-    "static/js/main.a5d87d73.js"
+    "static/js/main.d963e5ae.js"
   ]
 }
