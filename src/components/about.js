@@ -1,5 +1,6 @@
 import React from "react";
-import aboutMeImage from "../assets/aboutme_pic.png";
+// import aboutMeImage from "../assets/aboutme_pic.png";
+import aboutMeImage from "../assets/portfolio_pic.jpg";
 import banner from "../assets/banners/about_pic.png";
 
 const styles = {
@@ -24,11 +25,11 @@ const styles = {
   },
   pictureStyle: {
     borderRadius: "50%",
-    background: "linear-gradient(#FAE2FF, #B6A6CA)",
+    // background: "linear-gradient(#FAE2FF, #B6A6CA)",
     border: "0.5rem solid #DBCEFF",
     display: "flex",
-    width: "50%",
-    height: "50%",
+    width: "40%",
+    height: "40%",
     margin: "0 auto",
   },
   bannerStyle: {

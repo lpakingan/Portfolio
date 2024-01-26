@@ -28,11 +28,16 @@ const styles = {
     color: "black",
     fontSize: "20px",
   },
+  embedStyle: {
+    height: "50vh",
+    width: "80%",
+    borderRadius: "2rem",
+  },
 };
 
 export default function Resume() {
   return (
-    <section class="resume" style={styles.background}>
+    <section class="resume" style={{ ...styles.background, height: "auto" }}>
       <div style={styles.font}>
         <img
           class="resume_title"
@@ -41,6 +46,12 @@ export default function Resume() {
           alt="Resume Banner"
         />
       </div>
+      <br></br>
+      <embed
+        src="https://drive.google.com/file/d/1CA3bwmN9ATs62HKvdwt4R1KXw5sTT1yn/preview"
+        type="application/pdf"
+        style={styles.embedStyle}
+      />
       <h1 style={styles.headingStyle}>Front-end Proficiencies</h1>
       <u1 style={styles.listStyle}>
         <li>HTML</li>

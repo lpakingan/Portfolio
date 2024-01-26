@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail } from "../utils/helpers";
+// import { validateEmail } from "../utils/helpers";
 import banner from "../assets/banners/contact_pic.png";
 
 const styles = {
@@ -22,37 +22,37 @@ const styles = {
     padding: "0 5rem",
     fontWeight: "bold",
   },
-  inputStyle: {
-    fontFamily: "Outfit",
-    textAlign: "center",
-    width: "30%",
-    borderRadius: "0.5rem",
-    border: "none",
-    fontSize: "15px",
-    height: "1.5rem",
-  },
-  messageStyle: {
-    fontFamily: "Outfit",
-    height: "5rem",
-    width: "30%",
-    fontSize: "15px",
-    verticalAlign: "top",
-    textAlign: "center",
-    borderRadius: "0.5rem",
-    border: "none",
-  },
-  buttonStyle: {
-    padding: "0.5rem",
-    margin: " 2rem 0.5rem",
-    fontFamily: "Outfit",
-    color: "black",
-    background: "#A09ABC",
-    fontSize: "20px",
-    borderRadius: "0.5rem",
-    border: "none",
-    cursor: "pointer",
-    fontWeight: "bold",
-  },
+  // inputStyle: {
+  //   fontFamily: "Outfit",
+  //   textAlign: "center",
+  //   width: "30%",
+  //   borderRadius: "0.5rem",
+  //   border: "none",
+  //   fontSize: "15px",
+  //   height: "1.5rem",
+  // },
+  // messageStyle: {
+  //   fontFamily: "Outfit",
+  //   height: "5rem",
+  //   width: "30%",
+  //   fontSize: "15px",
+  //   verticalAlign: "top",
+  //   textAlign: "center",
+  //   borderRadius: "0.5rem",
+  //   border: "none",
+  // },
+  // buttonStyle: {
+  //   padding: "0.5rem",
+  //   margin: " 2rem 0.5rem",
+  //   fontFamily: "Outfit",
+  //   color: "black",
+  //   background: "#A09ABC",
+  //   fontSize: "20px",
+  //   borderRadius: "0.5rem",
+  //   border: "none",
+  //   cursor: "pointer",
+  //   fontWeight: "bold",
+  // },
   bannerStyle: {
     display: "flex",
     width: "40%",
@@ -60,45 +60,49 @@ const styles = {
     margin: "auto",
     padding: "2rem",
   },
+  linkStyle: {
+    textDecoration: "none",
+    color: "gray",
+  },
 };
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessage] = useState("");
+  // const [errorMessage, setErrorMessage] = useState("");
 
-  const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
+  // const handleInputChange = (e) => {
+  //   const { target } = e;
+  //   const inputType = target.name;
+  //   const inputValue = target.value;
 
-    if (inputType === "name") {
-      setName(inputValue);
-    } else if (inputType === "email") {
-      setEmail(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
-  };
+  //   if (inputType === "name") {
+  //     setName(inputValue);
+  //   } else if (inputType === "email") {
+  //     setEmail(inputValue);
+  //   } else {
+  //     setMessage(inputValue);
+  //   }
+  // };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault();
 
-    if (!validateEmail(email) || !name) {
-      setErrorMessage("Make sure you enter your name and email!");
-      return;
-    }
-    if (!message) {
-      setErrorMessage("Please enter a message!");
-      return;
-    }
+  //   if (!validateEmail(email) || !name) {
+  //     setErrorMessage("Make sure you enter your name and email!");
+  //     return;
+  //   }
+  //   if (!message) {
+  //     setErrorMessage("Please enter a message!");
+  //     return;
+  //   }
 
-    setName("");
-    setEmail("");
-    setMessage("");
-    setErrorMessage("Message successfully sent!");
-  };
+  //   setName("");
+  //   setEmail("");
+  //   setMessage("");
+  //   setErrorMessage("Message successfully sent!");
+  // };
 
   return (
     <section style={styles.background}>
@@ -109,7 +113,7 @@ function Contact() {
           src={banner}
           alt="Contact Me"
         />
-        <form className="form">
+        {/* <form className="form">
           <p style={styles.paragraphStyle}>Name</p>
           <input
             value={name}
@@ -145,12 +149,37 @@ function Contact() {
           >
             Submit
           </button>
-        </form>
-        {errorMessage && (
+        </form> */}
+        <p style={styles.paragraphStyle}>
+          Feel free to reach out on{" "}
+          <a
+            href="https://github.com/lpakingan"
+            target="_blank"
+            style={styles.linkStyle}
+          >
+            GitHub
+          </a>
+          ,{" "}
+          <a
+            href="https://www.linkedin.com/in/lianapakingan/"
+            target="_blank"
+            style={styles.linkStyle}
+          >
+            LinkedIn
+          </a>
+          , or through{" "}
+          <a href="mailto:pakinganliana@gmail.com" style={styles.linkStyle}>
+            email
+          </a>
+          !<br></br>
+          <br></br>
+          Let's collaborate and create together!
+        </p>
+        {/* {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );

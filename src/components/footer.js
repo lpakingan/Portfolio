@@ -1,6 +1,7 @@
 import github from "../assets/footer/github-logo.png";
 import instagram from "../assets/footer/instagram-logo.png";
 import linkedin from "../assets/footer/linkedin-logo.png";
+import email from "../assets/footer/email-logo.png";
 
 const styles = {
   background: {
@@ -43,6 +44,14 @@ export default function Footer() {
           style={styles.pictureStyle}
           src={linkedin}
           alt="linkedin"
+        />
+      </a>
+      <a href="mailto:pakinganliana@gmail.com" target="_blank">
+        <img
+          class="email_icon"
+          style={styles.pictureStyle}
+          src={email}
+          alt="email"
         />
       </a>
     </footer>
