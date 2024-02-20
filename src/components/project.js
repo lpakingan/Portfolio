@@ -1,4 +1,5 @@
 import React from "react";
+import palworldGif from "../assets/projects/palworld_gif.gif";
 import eventfullImage from "../assets/projects/eventfull_image.jpg";
 import gameshareGif from "../assets/projects/gameshare_gif.gif";
 import earthquakeImage from "../assets/projects/earthquaketracker_image.jpg";
@@ -74,6 +75,37 @@ export default function Projects() {
         />
 
         <div class="project_display">
+          <div class="project">
+            <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
+            <div class="project_title" style={styles.projectTitle}>
+              Palworld Helper
+            </div>
+            <p style={styles.projectDescription}>
+              A hobby project turned search engine for Palworld information.{" "}
+              <br></br>
+              <br></br>Uses Palworld API, Handlebars
+            </p>
+            <img
+              class="palworld_gif"
+              style={styles.pictureStyle}
+              src={palworldGif}
+              alt="Palworld Helper"
+            />
+            <br></br>
+            <a
+              href="https://github.com/lpakingan/PalworldHelper"
+              target="_blank"
+            >
+              <button style={styles.buttonStyle}>GitHub</button>
+            </a>
+            <a
+              href="https://palworld-helper-1d9970466a26.herokuapp.com/"
+              target="_blank"
+            >
+              <button style={styles.buttonStyle}>Deployed</button>
+            </a>
+          </div>
+
           <div class="project">
             <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
             <div class="project_title" style={styles.projectTitle}>
