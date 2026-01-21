@@ -48,44 +48,44 @@ export default function Resume() {
       </div>
       <br></br>
       <embed
-        src="https://drive.google.com/file/d/1dmGrk29dUeiJZKMX_5VSWIMoGdebPfjQ/view"
+        src="https://drive.google.com/file/d/1W8vsehY8R2BuvZzIk6pDrcUWITIS-rzV/preview"
         type="application/pdf"
         style={styles.embedStyle}
       />
 
       <h1 style={styles.headingStyle}>Programming</h1>
-      <ul style={styles.listStyle}>
+      <u1 style={styles.listStyle}>
         <li>Python (pandas, NumPy)</li>
         <li>SQL</li>
-      </ul>
+      </u1>
 
       <h1 style={styles.headingStyle}>Data Engineering</h1>
-      <ul style={styles.listStyle}>
+      <u1 style={styles.listStyle}>
         <li>ETL/ELT</li>
         <li>Data pipelines</li>
         <li>Workflow orchestration (Airflow)</li>
         <li>Transformation modeling (dbt)</li>
-      </ul>
+      </u1>
 
       <h1 style={styles.headingStyle}>Databases/Warehousing</h1>
-      <ul style={styles.listStyle}>
+      <u1 style={styles.listStyle}>
         <li>Snowflake</li>
-      </ul>
+      </u1>
 
       <h1 style={styles.headingStyle}>Visualization</h1>
-      <ul style={styles.listStyle}>
+      <u1 style={styles.listStyle}>
         <li>Tableau</li>
         <li>Power BI</li>
         <li>Matplotlib</li>
-      </ul>
+      </u1>
 
       <h1 style={styles.headingStyle}>Analytics</h1>
-      <ul style={styles.listStyle}>
+      <u1 style={styles.listStyle}>
         <li>Exploratory Data Analysis (EDA)</li>
         <li>Data cleaning</li>
         <li>Feature engineering</li>
         <li>Predictive modeling (machine learning)</li>
-      </ul>
+      </u1>
     </section>
   );
 }

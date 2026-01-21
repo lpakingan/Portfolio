@@ -64,7 +64,7 @@ export default function Footer() {
         />
       </a>
       <div style={styles.font}>
-        <p style={styles.paragraphStyle}> Liana Pakingan 2024</p>
+        <p style={styles.paragraphStyle}> Liana Pakingan 2026</p>
       </div>
     </footer>
   );
