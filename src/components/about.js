@@ -53,31 +53,33 @@ export default function About() {
         />
         <p style={styles.paragraphStyle}>
           My name is Liana Pakingan, and this is my working portfolio of various
-          front-end, back-end, and full-stack projects I have completed.{" "}
+          projects I have competed{" "}
           <br></br> <br></br>
           To give some background about myself, I graduated from the University
           of California, Irvine (UCI) in 2020 with my Bachelor's degree in
           Neurobiology. I then went to the University of Southern California
           (USC) and graduated in 2022 with my Master's degree in Neuroimaging
-          and Informatics.
-          <br></br> <br></br>I have been involved in neurodegenerative research
-          the majority of my academic career, with my main concentration in
-          Alzheimer's disease. In my latest position, I was a Human Brain
-          Imaging Research Coordinator, where I was conducting outreach for,
-          standardizing and assessing quality of large electromagnetic brain
-          datasets.
+          and Informatics. I am currently expanding my horizons by pursuing a 
+          second Master’s degree in Data Analytics at San José State University. 
           <br></br> <br></br>
-          As someone who understands the need to be proficient when it comes to
-          handling big data, especially in research studies, I most recently
-          have received certification in computer programming techniques such as
-          JavaScript and database management through SQL. You can see examples
-          of my work I finished during my certification in the 'Portfolio' tab.
-          Through these new-found proficiencies, I believe I can now better
-          excel in a data-driven or web development role.
+          I have been involved in neurodegenerative research for the majority of my academic career, 
+          with a main concentration in Alzheimer’s disease. In my latest position, I was a Human Brain 
+          Imaging Research Coordinator, where I conducted outreach for, standardized, and assessed the 
+          quality of large electromagnetic brain datasets. In my previous research-focused roles, 
+          I found that I truly enjoy working with data, improving data quality, and optimizing analyses
+          to support better conclusions and decisions. These experiences showed me how scientific research
+          and data analytics complement each other. Research provides the real-world questions, domain context,
+          and rigor needed to interpret findings correctly, while data analytics strengthens research by making
+          results more reliable, reproducible, and scalable. 
+          <br></br> <br></br>
+          Currently, I am a contracted with DataAnnotation as an AI Data Annotator, reviewing model responses for accuracy, 
+          consistency, and quality. This role has reinforced my belief that AI is a practical tool that will 
+          meaningfully shape both scientific research and data analytics by streamlining analysis and improving 
+          access to insights.
           <br></br> <br></br>
           Thank you for taking the time to check my out my portfolio. If you
           would like to contact me, feel free to reach out on the 'Contact Me'
-          page. I'm always looking for new projects to collaborate on!
+          page. I'm always looking for new opportunities!
         </p>
         <img
           class="about_me_picture"
