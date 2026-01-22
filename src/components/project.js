@@ -88,7 +88,7 @@ export default function Projects() {
         />
 
         <div style={styles.sectionHeader} onClick={() => setShowDataVis(!showDataVis)}>
-          Data Visualization Projects {showDataVis ? "▼" : "▶"}
+          Data Visualization {showDataVis ? "▼" : "▶"}
         </div>
 
         {showDataVis && (
@@ -118,7 +118,7 @@ export default function Projects() {
         )}
 
         <div style={styles.sectionHeader} onClick={() => setShowWebDev(!showWebDev)}>
-          Web Development Projects {showWebDev ? "▼" : "▶"}
+          Web Development {showWebDev ? "▼" : "▶"}
         </div>
 
         {showWebDev && (
