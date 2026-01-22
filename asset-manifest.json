@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.2b031c79.css",
-    "main.js": "/Portfolio/static/js/main.2b0ffa2a.js",
+    "main.js": "/Portfolio/static/js/main.ac4147ce.js",
     "static/media/palworld_gif.gif": "/Portfolio/static/media/palworld_gif.a085dbc62740707245c5.gif",
     "static/media/gameshare_gif.gif": "/Portfolio/static/media/gameshare_gif.d869920a3053e5612b97.gif",
     "static/media/hc_gif.gif": "/Portfolio/static/media/hc_gif.2a5243d865c889f11327.gif",
@@ -12,16 +12,17 @@
     "static/media/cssportfolio_image.jpg": "/Portfolio/static/media/cssportfolio_image.b166509a3442f6997534.jpg",
     "static/media/eventfull_image.jpg": "/Portfolio/static/media/eventfull_image.ef80002c4c0b4c6472a7.jpg",
     "static/media/weatherdashboard_image.jpg": "/Portfolio/static/media/weatherdashboard_image.2c8f5f3e4b7341ab687e.jpg",
+    "static/media/citibike_image.jpg": "/Portfolio/static/media/citibike_image.e145f174b780cb72dcee.jpg",
     "static/media/codequiz_image.jpg": "/Portfolio/static/media/codequiz_image.e9c873373f47df57db15.jpg",
     "static/media/instagram-logo.png": "/Portfolio/static/media/instagram-logo.e5fa71d9703562070719.png",
     "static/media/contact_pic.png": "/Portfolio/static/media/contact_pic.5334bae3c4748fa314b2.png",
     "static/media/projects_pic.png": "/Portfolio/static/media/projects_pic.6ed0519d3ec6c2da4447.png",
     "index.html": "/Portfolio/index.html",
     "main.2b031c79.css.map": "/Portfolio/static/css/main.2b031c79.css.map",
-    "main.2b0ffa2a.js.map": "/Portfolio/static/js/main.2b0ffa2a.js.map"
+    "main.ac4147ce.js.map": "/Portfolio/static/js/main.ac4147ce.js.map"
   },
   "entrypoints": [
     "static/css/main.2b031c79.css",
-    "static/js/main.2b0ffa2a.js"
+    "static/js/main.ac4147ce.js"
   ]
 }
