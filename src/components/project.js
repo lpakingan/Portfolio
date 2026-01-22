@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import citiBikeImage from "../assets/projects/citibike_image.jpg";
 import stockpriceGif from "../assets/projects/stockprice_gif.gif";
 import homecreditGif from "../assets/projects/hc_gif.gif";
 import palworldGif from "../assets/projects/palworld_gif.gif";
@@ -113,6 +114,36 @@ export default function Projects() {
               <br></br>
               <a href="https://github.com/lpakingan/HC-Default-Risk-Project" target="_blank">
                 <button style={styles.buttonStyle}>GitHub</button>
+              </a>
+
+              <a href="https://docs.google.com/presentation/d/1fD3WPjlaii4hKDiGha1bMyNy48B40zek-kn0C7wWPuQ/edit?usp=sharing" target="_blank">
+                <button style={styles.buttonStyle}>Presentation</button>
+              </a>
+            </div>
+
+            <div class="project">
+              <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
+              <div class="project_title" style={styles.projectTitle}>
+                Citi Bike Data Engineering Pipeline
+              </div>
+              <p style={styles.projectDescription}>
+                A comprehensive ETL/ELT/dbt pipeline project that provides analytics for Citi Bike's NYC ride data
+                <br></br>
+                <br></br>Implements Apache Airflow, Snowflake, dbt, Preset.io
+              </p>
+              <img
+                class="citibike_image"
+                style={styles.pictureStyle}
+                src={citiBikeImage}
+                alt="Citi Bike Dashboard"
+              />
+              <br></br>
+              <a href="https://github.com/Ashley96yy/DATA226_GroupProject" target="_blank">
+                <button style={styles.buttonStyle}>GitHub</button>
+              </a>
+
+              <a href="https://docs.google.com/presentation/d/1NOk6fN8XTxLL3U0uv1EM7eYOWDI3t3lEzGuFs427tzI/edit?usp=sharing" target="_blank">
+                <button style={styles.buttonStyle}>Presentation</button>
               </a>
             </div>
 

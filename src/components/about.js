@@ -53,7 +53,7 @@ export default function About() {
         />
         <p style={styles.paragraphStyle}>
           My name is Liana Pakingan, and this is my working portfolio of various
-          projects I have completed{" "}
+          projects I have completed!{" "}
           <br></br> <br></br>
           To give some background about myself, I graduated from the University
           of California, Irvine (UCI) in 2020 with my Bachelor's degree in
@@ -62,9 +62,10 @@ export default function About() {
           and Informatics. I am currently expanding my horizons by pursuing a 
           second Master’s degree in Data Analytics at San José State University. 
           <br></br> <br></br>
-          My academic background is in neurodegenerative research with a concentration in Alzheimer's disease. 
-          As a Human Brain Imaging Research Coordinator, I conducted outreach and assessed the quality of large electromagnetic brain datasets. 
-          Through my research roles, I discovered my passion for working with data and improving data quality to support better conclusions. 
+          Prior to my move to data, I was involved in neurodegenerative research with a concentration in Alzheimer's disease. 
+          As a Human Brain Imaging Research Coordinator, I conducted outreach and assessed the quality of large electromagnetic brain datasets.
+          This role exposed me to the importance of proper data quality control and management, as scientific research is heavily reliant on compliance and reproducibility.
+          Ultimately, through my research roles, I discovered my passion for working with large-scale data and improving data quality to support better conclusions. 
           These experiences ultimately showed me how research and data analytics can complement each other: research provides the real-world questions and domain context, 
           while data analytics makes findings more reliable and reproducible.
           <br></br> <br></br>
