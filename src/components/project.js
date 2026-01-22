@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import stockpriceGif from "../assets/projects/stockprice_gif";
 import homecreditGif from "../assets/projects/hc_gif.gif";
 import palworldGif from "../assets/projects/palworld_gif.gif";
 import eventfullImage from "../assets/projects/eventfull_image.jpg";
@@ -112,6 +113,32 @@ export default function Projects() {
               <br></br>
               <a href="https://github.com/lpakingan/HC-Default-Risk-Project" target="_blank">
                 <button style={styles.buttonStyle}>GitHub</button>
+              </a>
+            </div>
+
+            <div class="project">
+              <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
+              <div class="project_title" style={styles.projectTitle}>
+                Stock Price Prediction Analytics System
+              </div>
+              <p style={styles.projectDescription}>
+                A stock price prediction system that orchestrates ETL/ELT and dbt pipelines to identify stock price trends
+                <br></br>
+                <br></br>Implements Apache Airflow, Snowflake, dbt, Tableau
+              </p>
+              <img
+                class="stockprice_gif"
+                style={styles.pictureStyle}
+                src={stockpriceGif}
+                alt="Stock Price Prediction Analytics Dashboard"
+              />
+              <br></br>
+              <a href="https://github.com/lpakingan/DATA226_Lab2" target="_blank">
+                <button style={styles.buttonStyle}>GitHub</button>
+              </a>
+
+              <a href="https://public.tableau.com/app/profile/lpak/viz/sma_visualizations/AVGOandNVDASMAComparison" target="_blank">
+                <button style={styles.buttonStyle}>Tableau</button>
               </a>
             </div>
           </div>
