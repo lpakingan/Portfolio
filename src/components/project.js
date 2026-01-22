@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import stockpriceGif from "../assets/projects/stockprice_gif";
+import stockpriceGif from "../assets/projects/stockprice_gif.gif";
 import homecreditGif from "../assets/projects/hc_gif.gif";
 import palworldGif from "../assets/projects/palworld_gif.gif";
 import eventfullImage from "../assets/projects/eventfull_image.jpg";
