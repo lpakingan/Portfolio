@@ -53,7 +53,7 @@ export default function About() {
         />
         <p style={styles.paragraphStyle}>
           My name is Liana Pakingan, and this is my working portfolio of various
-          projects I have competed{" "}
+          projects I have completed{" "}
           <br></br> <br></br>
           To give some background about myself, I graduated from the University
           of California, Irvine (UCI) in 2020 with my Bachelor's degree in
@@ -62,17 +62,13 @@ export default function About() {
           and Informatics. I am currently expanding my horizons by pursuing a 
           second Master’s degree in Data Analytics at San José State University. 
           <br></br> <br></br>
-          I have been involved in neurodegenerative research for the majority of my academic career, 
-          with a main concentration in Alzheimer’s disease. In my latest position, I was a Human Brain 
-          Imaging Research Coordinator, where I conducted outreach for, standardized, and assessed the 
-          quality of large electromagnetic brain datasets. In my previous research-focused roles, 
-          I found that I truly enjoy working with data, improving data quality, and optimizing analyses
-          to support better conclusions and decisions. These experiences showed me how scientific research
-          and data analytics complement each other. Research provides the real-world questions, domain context,
-          and rigor needed to interpret findings correctly, while data analytics strengthens research by making
-          results more reliable, reproducible, and scalable. 
+          My academic background is in neurodegenerative research with a concentration in Alzheimer's disease. 
+          As a Human Brain Imaging Research Coordinator, I conducted outreach and assessed the quality of large electromagnetic brain datasets. 
+          Through my research roles, I discovered my passion for working with data and improving data quality to support better conclusions. 
+          These experiences ultimately showed me how research and data analytics can complement each other: research provides the real-world questions and domain context, 
+          while data analytics makes findings more reliable and reproducible.
           <br></br> <br></br>
-          Currently, I am a contracted with DataAnnotation as an AI Data Annotator, reviewing model responses for accuracy, 
+          Currently, I am contracted with DataAnnotation as an AI Data Annotator, reviewing model responses for accuracy, 
           consistency, and quality. This role has reinforced my belief that AI is a practical tool that will 
           meaningfully shape both scientific research and data analytics by streamlining analysis and improving 
           access to insights.
