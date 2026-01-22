@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import homecreditGif from "../assets/projects/hc_gif.gif";
 import palworldGif from "../assets/projects/palworld_gif.gif";
 import eventfullImage from "../assets/projects/eventfull_image.jpg";
 import gameshareGif from "../assets/projects/gameshare_gif.gif";
@@ -73,8 +74,8 @@ const styles = {
 };
 
 export default function Projects() {
-  const [showDataVis, setShowDataVis] = useState(true);
-  const [showWebDev, setShowWebDev] = useState(true);
+  const [showDataVis, setShowDataVis] = useState(false);
+  const [showWebDev, setShowWebDev] = useState(false);
 
   return (
     <section style={styles.background}>
@@ -95,11 +96,23 @@ export default function Projects() {
             <div class="project">
               <p style={styles.dividerStyle}>---------- 𓆩✧𓆪 ----------</p>
               <div class="project_title" style={styles.projectTitle}>
-                Data Vis Project Title
+                Home Credit Default Risk Analysis Project
               </div>
               <p style={styles.projectDescription}>
-                Description of your data visualization project
+                Group project that created an EDA and machine learning pipeline for predicting loan default risk for underbanked populations lacking traditional credit histories.
+                <br></br>
+                <br></br>Implements Exploratory Data Analysis (EDA), machine learning, and data visualization (Power BI)
               </p>
+              <img
+                class="hc_gif"
+                style={styles.pictureStyle}
+                src={homecreditGif}
+                alt="Home Credit Dashboard"
+              />
+              <br></br>
+              <a href="https://github.com/lpakingan/HC-Default-Risk-Project" target="_blank">
+                <button style={styles.buttonStyle}>GitHub</button>
+              </a>
             </div>
           </div>
         )}
