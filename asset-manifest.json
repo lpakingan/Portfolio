@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.2b031c79.css",
-    "main.js": "/Portfolio/static/js/main.7ae9aad3.js",
+    "main.js": "/Portfolio/static/js/main.df07804c.js",
     "static/media/palworld_gif.gif": "/Portfolio/static/media/palworld_gif.a085dbc62740707245c5.gif",
     "static/media/gameshare_gif.gif": "/Portfolio/static/media/gameshare_gif.d869920a3053e5612b97.gif",
+    "static/media/hc_gif.gif": "/Portfolio/static/media/hc_gif.2a5243d865c889f11327.gif",
     "static/media/portfolio_pic.jpg": "/Portfolio/static/media/portfolio_pic.5790998d596c453aec4d.jpg",
     "static/media/header_banner.png": "/Portfolio/static/media/header_banner.ace1c3d7eed8f1e332f9.png",
     "static/media/earthquaketracker_image.jpg": "/Portfolio/static/media/earthquaketracker_image.f91825ca53674b340b66.jpg",
@@ -16,10 +17,10 @@
     "static/media/projects_pic.png": "/Portfolio/static/media/projects_pic.6ed0519d3ec6c2da4447.png",
     "index.html": "/Portfolio/index.html",
     "main.2b031c79.css.map": "/Portfolio/static/css/main.2b031c79.css.map",
-    "main.7ae9aad3.js.map": "/Portfolio/static/js/main.7ae9aad3.js.map"
+    "main.df07804c.js.map": "/Portfolio/static/js/main.df07804c.js.map"
   },
   "entrypoints": [
     "static/css/main.2b031c79.css",
-    "static/js/main.7ae9aad3.js"
+    "static/js/main.df07804c.js"
   ]
 }
